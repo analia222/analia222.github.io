@@ -1,0 +1,94 @@
+body {
+   background-color: beige;
+   font-family: 'Poppins', sans-serif;
+   margin-left: 40px;
+   margin-right: 40px;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+.introducción {
+   text-align: center; 
+   display: grid;
+   margin-left: 30px;
+}
+
+
+p {
+    line-height: 1.6;
+    text-align: left
+}
+
+h2 {
+   text-align: center;
+   color: rgb(102, 160, 104);
+}
+
+.imagen-responsiva {
+  max-width: 10%;
+  height: auto;
+}
+
+.pasatiempos {
+   display:flex;
+   margin-left: 30px;
+   margin-right: 30px;
+}
+
+.formacionyhabilidades img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+  margin-right:150px;
+  margin-bottom: 100px;
+}
+
+ .botonera {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .boton {
+      margin-top: 50px;
+      background-color: #4e45fa;
+      color: white;
+      padding: 12px 28px;
+      border-radius: 50px;
+      font-size: 10px;
+    }
+
+    .boton:hover {
+      background-color: #574b90;
+      transform: scale(1.05);
+    }
+
+h1 {
+      text-align: center;
+      color: rgb(40, 85, 42);
+      font-size: 200%;
+}
+
+
+.cualidades img {
+    max-width: 50%;
+    height: auto;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    margin-top: 40px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.cualidades img:hover {
+  transform: scale(1.2);
+}
+
+a {
+  text-decoration: none;
+}
